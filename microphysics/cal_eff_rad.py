@@ -40,7 +40,7 @@ def cal_lamda(alpha,cx,ntx,qx):
 
 def cal_eff_rad_morrison(qx,ntx,rhox,rhoa,hydro_type):
    """
-   Calculate the effective radius of a hydrometeor speciec
+   Calculate the effective radius of a hydrometeor species
    
    Required Arguments:
        qx: Hydrometeor mixing ratio (kg/kg) [nhydro,nz,ny,nx]
